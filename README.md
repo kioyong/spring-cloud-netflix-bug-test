@@ -1,8 +1,10 @@
 # spring-cloud-netflix-bug-test
-重现bug
-启动两个 greeting-service, 然后启动greeting-api
+### 重现bug步骤
+
+启动两个 greeting-service, 然后启动 greeting-api
 如果api 配置里面 spring.main.lazy-initialzation=true 的话， 那么不能正确的负载均衡，
 如果为false 就可以正确的负载均衡
+
 
 api 的配置
 ```
