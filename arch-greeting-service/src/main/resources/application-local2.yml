@@ -1,0 +1,7 @@
+#for local load balance demo, override application.yml config
+server:
+  port: 8082
+
+spring:
+  application:
+    name: arch-greeting-service-instance-two
